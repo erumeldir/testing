@@ -1,0 +1,13 @@
+#this file defines all types of files git ignores in commits.
+#add any file type here that we do not want tracked (ie. binary files 
+# or log files). can also be used to not track folders
+
+#do not track .a or .o files
+*.[ao]
+
+#don't track temporary files
+*~
+
+#ignore all files in the build/ directory
+build/
+
